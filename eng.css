@@ -1,0 +1,316 @@
+/*SECTION ONE*/
+.header {
+    background-color:  white;
+    height: 90px;
+}
+.container {
+    width: 1101px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-ul {
+    display: flex;
+}
+.header-ul-items {
+    display: flex;
+}
+.header-li-items{
+    color: black;
+    font-size: 17px;
+    font-family: "Brawler";
+    font-weight: 400;
+    margin-right: 95px;
+    padding-top: 34px;
+}
+.ua-version {
+    color: rgb(154, 153, 153);
+    font-size: 18px;
+    font-family: "Brawler";
+    font-weight: 400;
+    margin-right: 22px;
+    margin-left: 80px;
+    padding-top: 30px;
+}
+.eng-version {
+color: black;
+font-size: 19px;
+font-family: "Brawler";
+font-weight: 400;
+padding-top: 30px;
+text-decoration: underline;
+}
+.logo-header {
+color: black;
+font-size: 30px;
+font-family: "Train One";
+font-weight: 400;
+margin-right: 230px;
+padding-top: 20px;
+}
+.header-li-items:hover {
+    text-decoration: underline;
+}
+.eng-version:hover {
+color: black;
+}
+/*SECTION TWO*/
+.onelove {
+    background-image: url(./sectiontwo-foto.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.first-main-p {
+    color: white;
+    font-size: 50px;
+    font-family: "Brawler";
+    font-weight: 400;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    text-shadow: 2px 2px #47ffb9;
+}
+.button-how-to-buy {  
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+    width: 140px;
+    height: 45px;
+    border-radius: 12px;
+    font-family: "Brawler";
+    font-size: 18px;
+    font-weight: 400;
+ }     
+.button-how-to-buy:hover {
+    text-decoration: underline;
+}
+/*SECTION THREE*/
+.rewiews-h2 {
+  display: flex;
+  justify-content: center;
+}
+.picture-section-two {
+  background-color: rgb(200, 200, 200);
+}
+.imgs-second-section {
+    width: 175px;
+    height: 165px;
+    padding-left: 21px;
+    padding-top: 14px;
+}
+.ul-second-section {
+    display: flex;
+    justify-content: space-between;
+}
+.ul-second-section-two {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.p-second-section {
+    font-size: 18px;
+    font-family: "Rubik Doodle Shadow";
+    font-weight: 400;
+    color: white;
+    padding-top: 13px;
+    padding-left: 32px;
+}
+.second-p-second-section {
+    font-size: 15px;
+    font-family: "Rubik Doodle Shadow";
+    font-weight: 400;
+    color: #47ffb9;
+    padding-top: 5px;
+    padding-left: 64px;
+}
+.for-background-color {
+    background-color: black;
+    border-radius: 15px;
+    width: 200px;
+    height: 75px;
+}
+.picture-section-two {
+    padding-top: 78px;
+}
+.for-img-bg {
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+    border-radius: 18px;
+    height: 175px;
+    width: 200px;
+}
+.buy-nft-section-three {
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+    width: 160px;
+    height: 50px;
+    border-radius: 14px;
+    font-family: "Brawler";
+    font-size: 18px;
+    font-weight: 400;
+}
+.baton {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.baton:hover {
+    text-decoration: underline;
+}
+/*SECTION FOUR*/
+.reviews {
+    padding-top: 25px;
+    background-color: black;
+    height: 480px;
+  }
+  .reviews-h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: white;
+  }
+  
+  .reviews-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reviews-item:first-child {
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+  }
+  .reviews-item {
+    padding: 49px 14px 30px 13px;
+    width: 255px;
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+    border-radius: 15px;
+    height: 320px;
+  }
+  
+  .reviews-item:last-child {
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+  }
+  .reviews-item:not(:last-child) {
+    margin-right: 93px;
+  }
+  .reviews-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .reviews-date {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-bottom: 47px;
+  }
+  .review-content-block {
+    display: flex;
+  }
+  .review-person-div {
+    margin-left: 12px;
+    margin-top: -2px;
+  }
+  .review-person {
+    width: 35px;
+    height: 35px;
+    padding-top: 2px;
+    margin-top: 1px;
+  }
+  .review-person-name {
+   color: black;
+  }
+  .review-loyalty {
+   color: black;
+   height: 60px;
+  }
+  /*SECTION SIX*/
+  .container-section {
+    margin-left: 472px;
+  }
+    .form-item {
+    background: -webkit-linear-gradient(180deg, #5aff57,#47ffb9);
+    color: black;
+    width: 500px;
+    height: 65px;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 400;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    box-shadow: 4px 4px white;
+    }
+    .h-form {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        color: black;
+        padding-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 45px;
+        padding-bottom: 20px;
+    }
+    .section-button {
+      width: 160px;
+      height: 50px;
+      background-color: black;
+      border-radius: 15px;
+      color: white;
+      margin-top: 20px;
+      margin-left: 165px;
+      margin-bottom: 10px;
+      font-family: "Roboto";
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .section-six-section {
+      background-color: rgb(200, 200, 200);
+    }
+    .section-button:hover {
+      text-decoration: underline;
+    }
+  /*SECTION SEVEN*/
+  .container-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .footer {
+    background-color: black;
+    height: 80px;
+  }
+  .a-footer {
+    color: white;
+    font-size: 30px;
+    font-family: "Train One";
+    font-weight: 400;
+    padding-right: 450px;
+    padding-left: 110px;
+  }
+  .ul-footer {
+    display: flex;
+  }
+  .p-footer:hover {
+    text-decoration: underline;
+  }
+ .li-footer-li {
+  padding-top: 20px;
+ }
+  .p-footer {
+    font-size: 20px;
+    font-family: "Brawler";
+    font-weight: 400;
+    color: white;
+    padding-right: 80px;
+    padding-top: 30px;
+    }
