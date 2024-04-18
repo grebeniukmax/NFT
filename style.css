@@ -315,3 +315,29 @@ color: black;
     padding-right: 80px;
     padding-top: 30px;
     }
+    /*WINDOW*/
+    .backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: opasity 1s ease-in-out;
+    }
+    .backdrop.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .no-scroll {
+      overflow: hidden;
+    }
+    .modal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 528px;
+      height: 561px;
+      background-color: black;
+    }

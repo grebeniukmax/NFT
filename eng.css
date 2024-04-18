@@ -16,7 +16,7 @@
 }
 .header-li-items{
     color: black;
-    font-size: 17px;
+    font-size: 16px;
     font-family: "Brawler";
     font-weight: 400;
     margin-right: 95px;
@@ -298,13 +298,13 @@ color: black;
     padding-left: 110px;
   }
   .ul-footer {
-    display: flex;
+   display: flex;
   }
   .p-footer:hover {
     text-decoration: underline;
   }
  .li-footer-li {
-  padding-top: 20px;
+   padding-top: 20px;
  }
   .p-footer {
     font-size: 20px;
