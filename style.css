@@ -339,5 +339,8 @@ color: black;
       transform: translate(-50%, -50%);
       width: 528px;
       height: 561px;
-      background-color: black;
+      background-color: white;
+    }
+    .button-modal-one {
+      fill: #00ff9d;
     }
